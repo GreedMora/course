@@ -91,9 +91,9 @@ body {
 }
 
 .theme__switch__input:checked ~ .theme__switch__label {
-  --text-color: #1a1a1a;
+  --text-color: #fff;
   --background-color: #090d1f;
-  --switcher-background: #090d1f;
+  --switcher-background: #fff;
   --switcher-indicator: #090d1f;
 }
 /* ! THEME SWITCH END*/
