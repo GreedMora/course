@@ -79,7 +79,7 @@ body {
 .theme__switch__label:before {
   content: "";
   position: absolute;
-  background-color: #fff;
+  background-color: var(--switcher-indicator);
   height: 24px;
   width: 24px;
   border-radius: 50%;
@@ -97,4 +97,3 @@ body {
   --switcher-indicator: #090d1f;
 }
 /* ! THEME SWITCH END*/
-
