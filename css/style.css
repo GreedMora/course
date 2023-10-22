@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+:root {
+  --background-color: #fff;
+  --text-color: #1a1a1a;
+  --switcher-background: #090d1f;
+  --switcher-indicator: #fff;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: var(--background-color);
+}
+
+.header {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+/* ! MENU START */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 14px;
+}
+
+.menu__link {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+/* ! MENU END */
+
+/* ! Theme Switch START */
+
+.theme__switch__label {
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  background-color: var(--switcher-background);
+  border-radius: 30px;
+}
+
+.theme__switch__label:before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+
+.theme__switch__input {
+  float: right;
+  /* visibility: hidden; */
+}
+
+.theme__switch__input:checked ~ .theme__switch__label {
+  --text-color: #1a1a1a;
+  --background-color: #090d1f;
+  --switcher-background: #090d1f;
+  --switcher-indicator: #090d1f;
+}
+/* ! THEME SWITCH END*/
+
+/* ! HEADER TITLE START*/
+
+.header__title {
+  text-transform: uppercase;
+  font-size: 243.8px;
+  font-weight: 700;
+  margin: ;
+}
