@@ -3,7 +3,7 @@ const root = document.querySelector(":root");
 
 themeSwitch.addEventListener("change", () => {
   if (themeSwitch.checked) {
-    root.style.setProperty("--text-color: #1a1a1a;");
+    root.style.setProperty("--text-color: #fff;");
     root.style.setProperty("--background-color: #090d1f;");
     root.style.setProperty("--switcher-background: #fff;");
     root.style.setProperty("--switcher-indicator: #090d1f;");
